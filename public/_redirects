@@ -1,5 +1,4 @@
 # Cloudflare Pages 重定向配置
 # 参考: https://developers.cloudflare.com/pages/configuration/redirects/
 
-# SPA 路由支持 - 所有未匹配的路径重定向到 index.html
-/*  /index.html  200
+# SPA 路由支持 - 404 回退到 index.html
