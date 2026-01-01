@@ -1,0 +1,330 @@
+{
+  "config": {
+    "siteTitle": "我的网站收藏",
+    "adminContact": "admin@example.com"
+  },
+  "sites": [
+    {
+      "id": 1,
+      "title": "Vue.js 官方文档",
+      "cover": "https://vuejs.org/images/logo.png",
+      "url": "https://vuejs.org",
+      "tags": ["前端", "框架", "Vue"],
+      "description": "渐进式 JavaScript 框架，易学易用，性能出色，适用场景丰富的 Web 前端框架。",
+      "content": "## Vue.js 简介\n\nVue.js 是一款用于构建用户界面的**渐进式 JavaScript 框架**。它的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。\n\n### 主要特性\n\n- 响应式数据绑定\n- 组件化开发\n- 虚拟 DOM\n- 单文件组件 (.vue)\n- Vue Router 路由管理\n- Vuex/Pinia 状态管理\n\n### 适用场景\n\n适合从小型项目到大型企业级应用的各种场景。\n\n![Vue Logo](https://vuejs.org/images/logo.png)",
+      "contentType": "text"
+    },
+    {
+      "id": 2,
+      "title": "Tailwind CSS",
+      "cover": "https://tailwindcss.com/favicons/favicon.ico?v=4",
+      "url": "https://tailwindcss.com",
+      "tags": ["前端", "CSS", "工具"],
+      "description": "一个功能类优先的 CSS 框架，用于快速构建自定义用户界面。",
+      "content": "## Tailwind CSS\n\nTailwind CSS 是一个功能类优先的 CSS 框架，它提供了大量的原子类，让你可以直接在 HTML 中构建任何设计。\n\n### 核心优势\n\n- 无需离开 HTML 即可构建现代网站\n- 高度可定制的设计系统\n- 响应式设计开箱即用\n- 暗色模式支持\n- 生产环境自动清除未使用的 CSS\n\n### 与传统框架的区别\n\n与传统 CSS 框架不同，Tailwind 不提供预设组件，而是提供底层工具类，让你完全掌控设计。",
+      "contentType": "text"
+    },
+    {
+      "id": 3,
+      "title": "GitHub",
+      "cover": "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      "url": "https://github.com",
+      "tags": ["编程技术", "工具", "代码托管"],
+      "description": "全球最大的代码托管平台，支持 Git 版本控制，提供协作开发功能。",
+      "content": "## GitHub 平台介绍\n\nGitHub 是全球最大的代码托管平台和开发者社区，为开源和私有项目提供版本控制和协作功能。\n\n### 主要功能\n\n- Git 仓库托管\n- Pull Request 代码审查\n- Issues 问题追踪\n- GitHub Actions CI/CD\n- GitHub Pages 静态网站托管\n- Codespaces 云端开发环境\n\n### 为什么选择 GitHub\n\n无论是个人项目还是企业级开发，GitHub 都是开发者的首选平台。",
+      "contentType": "text"
+    },
+    {
+      "id": 6,
+      "title": "TypeScript",
+      "cover": "https://www.typescriptlang.org/icons/icon-512x512.png",
+      "url": "https://www.typescriptlang.org",
+      "tags": ["前端", "语言", "工具"],
+      "description": "JavaScript 的超集，添加了类型系统和对 ES6+ 的支持。",
+      "content": "## TypeScript 语言\n\nTypeScript 是 JavaScript 的超集，由微软开发和维护，为 JavaScript 添加了可选的静态类型检查。\n\n### 主要优势\n\n- 静态类型检查，提前发现错误\n- 更好的 IDE 支持和代码补全\n- 面向对象编程特性\n- 最新 ECMAScript 特性支持\n- 与 JavaScript 完全兼容\n\n### 适用项目\n\n适合中大型项目，能显著提高代码质量和开发效率。",
+      "contentType": "text"
+    },
+    {
+      "id": 7,
+      "title": "Stack Overflow",
+      "cover": "https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png",
+      "url": "https://stackoverflow.com",
+      "tags": ["博客论坛"],
+      "description": "全球最大的程序员问答社区，解决编程问题的首选平台。",
+      "content": "## Stack Overflow\n\nStack Overflow 是全球最大的程序员问答社区，几乎所有编程问题都能在这里找到答案。\n\n### 平台特点\n\n- 海量高质量问答\n- 声望和徽章激励系统\n- 代码片段支持\n- 多语言和技术标签分类\n- 活跃的开发者社区\n\n### 使用建议\n\n遇到编程问题时，Stack Overflow 往往是最快找到解决方案的地方。",
+      "contentType": "text"
+    },
+    {
+      "id": 8,
+      "title": "Cloudflare",
+      "cover": "https://www.cloudflare.com/img/logo-cloudflare-dark.svg",
+      "url": "https://www.cloudflare.com",
+      "tags": ["编程技术", "CDN", "安全"],
+      "description": "提供 CDN、DDoS 防护、DNS 服务等网络安全和性能优化服务。",
+      "content": "## Cloudflare 服务\n\nCloudflare 是全球领先的网络安全和性能优化服务提供商，为网站提供全方位的保护和加速。\n\n### 核心服务\n\n- 全球 CDN 内容分发\n- DDoS 攻击防护\n- Web 应用防火墙（WAF）\n- DNS 解析服务\n- SSL/TLS 证书\n- Cloudflare Pages 静态网站托管\n- Workers 边缘计算\n\n### 推荐理由\n\n免费套餐功能强大，是个人和企业网站的理想选择。主要有静态网站代理，对象存储R2。",
+      "contentType": "text"
+    },
+    {
+      "id": 9,
+      "title": "翻翻墙",
+      "cover": "",
+      "url": "https://www.ffq.la/",
+      "tags": ["机场"],
+      "description": "机场平台，作者没用过，只是见他挺多的",
+      "content": "",
+      "contentType": "text"
+    },
+    {
+      "id": 10,
+      "title": "魔戒机场",
+      "cover": "",
+      "url": "https://mojie.kim/",
+      "tags": ["机场"],
+      "description": "魔戒机场",
+      "content": "防走丢网站：[https://魔戒.net](https://魔戒.net)",
+      "contentType": "text"
+    },
+    {
+      "id": 11,
+      "title": "一分机场",
+      "cover": "https://xn--4gqx1hgtfdmt.com/favicon.ico",
+      "url": "https://xn--4gqx1hgtfdmt.com/",
+      "tags": ["机场"],
+      "description": "一分机场",
+      "content": "",
+      "contentType": "text"
+    },
+    {
+      "id": 12,
+      "title": "樱花机场",
+      "cover": "https://sakuracat-a.com/favicon.ico",
+      "url": "https://sakuracat-a.com/",
+      "tags": ["机场"],
+      "description": "樱花机场，作者评价：拉中拉",
+      "content": "",
+      "contentType": "text"
+    },
+    {
+      "id": 12,
+      "title": "谷歌无限邮箱",
+      "cover": "https://gmail.31tu.com/gmail.png",
+      "url": "https://gmail.31tu.com/",
+      "tags": ["工具","邮箱"],
+      "description": "谷歌邮箱别名，一个谷歌邮箱等于30个谷歌邮箱",
+      "content": "根据谷歌邮箱规则自动生成别名邮箱，官方称最多能有30个别名邮箱。无需配置，发送短信到别名邮箱，会自动转到主邮箱中。主要用于注册",
+      "contentType": "text"
+    },
+    {
+      "id": 13,
+      "title": "Moe 邮箱",
+      "cover": "https://www.moemail.cc/favicon.ico",
+      "url": "https://www.moemail.cc",
+      "tags": ["工具","邮箱"],
+      "description": "临时小邮箱，只能接收纯文本内容",
+      "content": "",
+      "contentType": "text"
+    },
+    {
+      "id": 14,
+      "title": "一次性 SMS 短信",
+      "cover": "https://smsactivate.s3.eu-central-1.amazonaws.com/assets/img/activate_favicon.png",
+      "url": "https://sms-activate.ru/",
+      "tags": ["工具","手机短信"],
+      "description": "一次性手机短信，全球都有，收费",
+      "content": "买手机号便宜，但是最低充值15元人民币左右，且手机号是一次性的，不要用于长久使用的软件",
+      "contentType": "text"
+    }
+    ,
+    {
+      "id": 15,
+      "title": "超级云短信接码平台",
+      "cover": "",
+      "url": "https://www.supercloudsms.com/message/18453475520.html",
+      "tags": ["工具","手机短信"],
+      "description": "一次性手机短信，免费，作者认为不好用",
+      "content": "",
+      "contentType": "text"
+    },
+    {
+      "id": 16,
+      "title": "Zlibrary",
+      "cover": "https://z-library.la/favicon.ico",
+      "url": "https://z-library.la/",
+      "tags": ["电子书籍"],
+      "description": "全球最大的盗版电子书平台，但是新书可能没有",
+      "content": "/data/md/Zlibrary.md",
+      "contentType": "file"
+    }
+    ,
+    {
+      "id": 17,
+      "title": "CSDN",
+      "cover": "https://g.csdnimg.cn/static/logo/favicon32.ico",
+      "url": "https://www.csdn.net/",
+      "tags": ["博客论坛"],
+      "description": "中国最大的 IT 社交平台，质量参差不齐，到处都要钱",
+      "content": "发展最好的，但是 shi 多于 金，好处就是，可能有解决办法",
+      "contentType": "text"
+    },
+    {
+      "id": 18,
+      "title": "博客园",
+      "cover": "https://www.cnblogs.com/images/logo.svg?v=2SMrXdIvlZwVoB1akyXm38WIKuTHVqvGD0CweV-B6cY",
+      "url": "https://www.cnblogs.com/",
+      "tags": ["博客论坛"],
+      "description": "老牌博客社区，无广告",
+      "content": "虽然社区活跃，但运营全靠vip，和老用户的赞助，无广告费用来源，所以官方处于破产边缘。质量较高。",
+      "contentType": "text"
+    },
+    {
+      "id": 19,
+      "title": "稀土掘金",
+      "cover": "https://lf-web-assets.juejin.cn/obj/juejin-web/xitu_juejin_web/static/favicons/favicon-32x32.png",
+      "url": "https://juejin.cn/",
+      "tags": ["博客论坛"],
+      "description": "新生社区，质量较高",
+      "content": "博客园太老了，样式跟不上，又受不了CSDN的大佬们，越来越多的以掘金为阵地了。",
+      "contentType": "text"
+    },
+    {
+      "id": 20,
+      "title": "MySQL",
+      "cover": "https://www.mysql.com/common/logos/logo-mysql-170x115.png",
+      "url": "https://www.mysql.com/",
+      "tags": ["编程技术", "数据库"],
+      "description": "全球最流行的开源关系型数据库，广泛应用于 Web 开发。",
+      "content": "## MySQL 数据库\n\nMySQL 是最流行的开源关系型数据库管理系统，由 Oracle 公司维护。\n\n### 主要特点\n\n- 开源免费，社区版功能强大\n- 高性能、高可靠性\n- 支持多种存储引擎（InnoDB、MyISAM）\n- 完善的事务支持\n- 主从复制、读写分离\n- 丰富的生态系统\n\n### 适用场景\n\n适合中小型 Web 应用、电商系统、内容管理系统等。",
+      "contentType": "text"
+    },
+    {
+      "id": 21,
+      "title": "Redis",
+      "cover": "https://redis.io/favicon.ico",
+      "url": "https://redis.io/",
+      "tags": ["编程技术", "数据库", "缓存"],
+      "description": "高性能的内存键值数据库，常用于缓存、会话管理、消息队列。",
+      "content": "## Redis 内存数据库\n\nRedis 是一个开源的内存数据结构存储系统，可用作数据库、缓存和消息中间件。\n\n### 核心特性\n\n- 极高的读写性能\n- 丰富的数据结构（String、Hash、List、Set、ZSet）\n- 持久化支持（RDB、AOF）\n- 主从复制、哨兵模式、集群模式\n- 发布订阅功能\n- Lua 脚本支持\n\n### 常见用途\n\n缓存、会话存储、排行榜、计数器、分布式锁、消息队列等。",
+      "contentType": "text"
+    },
+    {
+      "id": 22,
+      "title": "Apache Kafka",
+      "cover": "https://kafka.apache.org/logos/kafka_logo--simple.png",
+      "url": "https://kafka.apache.org/",
+      "tags": ["编程技术", "消息队列"],
+      "description": "分布式流处理平台，高吞吐量的消息队列系统。",
+      "content": "## Apache Kafka\n\nKafka 是一个分布式流处理平台，最初由 LinkedIn 开发，现为 Apache 顶级项目。\n\n### 核心能力\n\n- 高吞吐量、低延迟\n- 分布式、可扩展\n- 持久化存储\n- 消息回溯能力\n- 流处理支持（Kafka Streams）\n- 连接器生态（Kafka Connect）\n\n### 应用场景\n\n日志收集、事件驱动架构、实时数据管道、流处理分析等。",
+      "contentType": "text"
+    },
+    {
+      "id": 23,
+      "title": "RabbitMQ",
+      "cover": "https://www.rabbitmq.com/img/rabbitmq-logo-with-name.svg",
+      "url": "https://www.rabbitmq.com/",
+      "tags": ["编程技术", "消息队列"],
+      "description": "开源消息代理软件，实现 AMQP 协议，支持多种消息模式。",
+      "content": "## RabbitMQ 消息队列\n\nRabbitMQ 是实现了 AMQP 协议的开源消息代理软件，由 Erlang 语言编写。\n\n### 主要特性\n\n- 支持多种消息协议（AMQP、STOMP、MQTT）\n- 灵活的路由机制（Exchange、Binding）\n- 消息确认机制\n- 高可用集群\n- 管理界面友好\n- 插件系统丰富\n\n### 适用场景\n\n异步任务处理、应用解耦、流量削峰、分布式系统通信等。",
+      "contentType": "text"
+    },
+    {
+      "id": 24,
+      "title": "MQTTX",
+      "cover": "https://mqttx.app/images/mqttx-logo.png",
+      "url": "https://mqttx.app/",
+      "tags": ["编程技术", "工具", "物联网"],
+      "description": "优雅的跨平台 MQTT 5.0 客户端工具，支持桌面端和命令行。",
+      "content": "## MQTTX 客户端\n\nMQTTX 是 EMQ 开源的跨平台 MQTT 5.0 桌面客户端，界面优雅，功能强大。\n\n### 功能特点\n\n- 支持 MQTT 3.1.1 和 5.0 协议\n- 跨平台（Windows、macOS、Linux）\n- 支持 WebSocket 连接\n- 多连接管理\n- 消息历史记录\n- 脚本功能支持\n\n### 使用场景\n\nMQTT 协议调试、物联网开发测试、消息订阅发布测试等。",
+      "contentType": "text"
+    },
+    {
+      "id": 25,
+      "title": "Jenkins",
+      "cover": "https://www.jenkins.io/images/logos/jenkins/jenkins.png",
+      "url": "https://www.jenkins.io/",
+      "tags": ["编程技术", "CI/CD", "DevOps"],
+      "description": "开源的自动化服务器，用于持续集成和持续交付。",
+      "content": "## Jenkins 自动化服务器\n\nJenkins 是最流行的开源自动化服务器，用于构建、测试和部署软件。\n\n### 核心功能\n\n- 持续集成/持续交付\n- 丰富的插件生态（1800+）\n- Pipeline as Code\n- 分布式构建\n- 多种 SCM 支持\n- 灵活的触发机制\n\n### 典型用途\n\n自动化构建、自动化测试、自动化部署、代码质量检查等。",
+      "contentType": "text"
+    },
+    {
+      "id": 26,
+      "title": "Elasticsearch",
+      "cover": "https://static-www.elastic.co/v3/assets/bltefdd0b53724fa2ce/blt36f2da8d650732a0/5d0823c3d8ff351753cbc99f/logo-elasticsearch-32-color.svg",
+      "url": "https://www.elastic.co/elasticsearch/",
+      "tags": ["编程技术", "搜索引擎", "数据库"],
+      "description": "分布式搜索和分析引擎，适用于全文搜索、日志分析等场景。",
+      "content": "## Elasticsearch 搜索引擎\n\nElasticsearch 是一个分布式、RESTful 风格的搜索和数据分析引擎。\n\n### 核心特性\n\n- 分布式实时搜索\n- 全文检索能力\n- 近实时数据分析\n- 高可用、易扩展\n- RESTful API\n- 与 Kibana、Logstash 组成 ELK Stack\n\n### 应用场景\n\n全文搜索、日志分析、指标监控、安全分析、业务分析等。",
+      "contentType": "text"
+    },
+    {
+      "id": 27,
+      "title": "MongoDB",
+      "cover": "https://www.mongodb.com/assets/images/global/favicon.ico",
+      "url": "https://www.mongodb.com/",
+      "tags": ["编程技术", "数据库", "NoSQL"],
+      "description": "流行的文档型 NoSQL 数据库，灵活的数据模型，易于扩展。",
+      "content": "## MongoDB 文档数据库\n\nMongoDB 是一个基于文档的 NoSQL 数据库，以 JSON 格式存储数据。\n\n### 主要优势\n\n- 灵活的文档模型\n- 水平扩展能力强\n- 丰富的查询语言\n- 聚合框架强大\n- 副本集高可用\n- 分片集群支持\n\n### 适用场景\n\n内容管理、移动应用后端、实时分析、物联网数据存储等。",
+      "contentType": "text"
+    },
+    {
+      "id": 28,
+      "title": "Nginx",
+      "cover": "https://nginx.org/nginx.png",
+      "url": "https://nginx.org/",
+      "tags": ["编程技术", "服务器", "反向代理"],
+      "description": "高性能的 HTTP 和反向代理服务器，也是邮件代理服务器。",
+      "content": "## Nginx Web 服务器\n\nNginx 是一个高性能的 HTTP 服务器和反向代理服务器，以稳定性和低资源消耗著称。\n\n### 核心功能\n\n- 静态文件服务\n- 反向代理\n- 负载均衡\n- HTTP 缓存\n- SSL/TLS 终端\n- 限流和访问控制\n\n### 常见用途\n\nWeb 服务器、反向代理、负载均衡器、API 网关、静态资源服务等。",
+      "contentType": "text"
+    },
+    {
+      "id": 29,
+      "title": "Docker",
+      "cover": "https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png",
+      "url": "https://www.docker.com/",
+      "tags": ["编程技术", "容器", "DevOps"],
+      "description": "容器化平台，简化应用的构建、分发和运行。",
+      "content": "## Docker 容器平台\n\nDocker 是一个开源的容器化平台，让开发者可以打包应用及其依赖到可移植的容器中。\n\n### 核心概念\n\n- 镜像（Image）：应用的只读模板\n- 容器（Container）：镜像的运行实例\n- Dockerfile：构建镜像的脚本\n- Docker Compose：多容器编排\n- Docker Hub：镜像仓库\n\n### 主要优势\n\n环境一致性、快速部署、资源隔离、易于扩展、DevOps 友好。",
+      "contentType": "text"
+    },
+    {
+      "id": 30,
+      "title": "Git",
+      "cover": "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+      "url": "https://git-scm.com/",
+      "tags": ["编程技术", "版本控制", "工具"],
+      "description": "分布式版本控制系统，追踪代码变更，支持团队协作开发。",
+      "content": "## Git 版本控制\n\nGit 是目前最流行的分布式版本控制系统，由 Linus Torvalds 创建。\n\n### 核心特性\n\n- 分布式架构\n- 分支管理灵活\n- 快速高效\n- 数据完整性保证\n- 支持非线性开发\n- 完整的历史记录\n\n### 基本工作流\n\n克隆仓库 → 创建分支 → 修改代码 → 提交变更 → 推送远程 → 合并请求。",
+      "contentType": "text"
+    },
+    {
+      "id": 31,
+      "title": "Kubernetes",
+      "cover": "https://kubernetes.io/images/wheel.svg",
+      "url": "https://kubernetes.io/",
+      "tags": ["编程技术", "容器编排", "DevOps"],
+      "description": "容器编排平台，自动化部署、扩展和管理容器化应用。",
+      "content": "## Kubernetes (K8s)\n\nKubernetes 是 Google 开源的容器编排平台，用于自动化部署、扩展和管理容器化应用。\n\n### 核心概念\n\n- Pod：最小部署单元\n- Service：服务发现和负载均衡\n- Deployment：声明式更新\n- ConfigMap/Secret：配置管理\n- Ingress：外部访问入口\n- Namespace：资源隔离\n\n### 主要能力\n\n自动扩缩容、滚动更新、自愈能力、服务发现、存储编排等。",
+      "contentType": "text"
+    },
+    {
+      "id": 32,
+      "title": "Postman",
+      "cover": "https://voyager.postman.com/logo/postman-logo-icon-orange.svg",
+      "url": "https://www.postman.com/",
+      "tags": ["编程技术", "API", "工具"],
+      "description": "API 开发协作平台，用于设计、测试、文档化和监控 API。",
+      "content": "## Postman API 平台\n\nPostman 是最流行的 API 开发协作平台，简化 API 的整个生命周期管理。\n\n### 主要功能\n\n- API 请求构建和测试\n- 环境变量管理\n- 自动化测试脚本\n- Mock Server\n- API 文档生成\n- 团队协作工作区\n\n### 使用场景\n\nAPI 调试、接口测试、自动化测试、API 文档编写、团队协作等。",
+      "contentType": "text"
+    },
+    {
+      "id": 33,
+      "title": "Apifox",
+      "cover": "https://cdn.apifox.cn/logo/apifox-logo-512.png",
+      "url": "https://apifox.com/",
+      "tags": ["编程技术", "API", "工具"],
+      "description": "API 一体化协作平台，集 API 文档、调试、Mock、自动化测试于一体。",
+      "content": "## Apifox API 协作平台\n\nApifox 是国产的 API 一体化协作平台，被称为 Postman + Swagger + Mock + JMeter 的结合体。\n\n### 核心功能\n\n- 可视化 API 设计\n- 接口调试\n- 自动生成文档\n- Mock 数据服务\n- 自动化测试\n- 数据模型管理\n\n### 优势特点\n\n中文界面友好、功能集成度高、支持团队协作、免费版功能丰富。",
+      "contentType": "text"
+    }
+  ]
+}
